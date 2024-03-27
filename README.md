@@ -1,6 +1,17 @@
 # Placement Portal
 Welcome to the **Placement Portal**! This portal serves as a platform for students to explore and apply for placement opportunities provided by various companies. Here, students can register, create profiles, view company details, and apply for suitable positions.
 
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Technologies Used](#technologies-used)
+4. [How to Use](#how-to-use)
+5. [Setting Up the Project](#setting-up-the-project)
+6. [Database Setup](#database-setup)
+7. [Running the Project](#running-the-project)
+8. [Future Improvements](#future-improvements)
+
+
 ## Introduction
 The **Placement Portal** is designed to streamline the process of matching students with placement opportunities. It offers a user-friendly interface for students to browse through available companies, view job descriptions, and apply for positions that suit their qualifications and interests.
 
