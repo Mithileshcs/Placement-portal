@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% block content %}
+
+{% load custom_filter %}
+
+<h2>{{ company.name }}</h2>
+
+<h4>Location:</h4><h6>{{ company.location }}</h6><br/>
+<h4>Industry:</h4><h6> {{ company.industry }}</h6>
+
+<br/>
+<h4>Description :</h4>
+{% for paragraph in company.description|split_paragraphs %}
+<p>{{ paragraph }}</p>
+{% endfor %}
+
+<br/><br/>
+<br/><br/>
+
+<a href="{% url 'home' %}"class="btn btn-secondary">Back</a> 
+{% if job_already_applied %}
+    <button class="btn btn-primary" disabled>Applied</button>
+{% else %}
+    <a href="{% url 'apply_for_job' company_id=company.id %}" class="btn btn-primary">Apply</a>
+{% endif %}
+
+<!-- <div class="d-grid gap-2 col-6 mx-auto">
+    <button class="btn btn-primary" type="button">Apply</button><br/>
+    <a href="{% url 'home' %}"class="btn btn-secondary">Back</a>
+  </div> -->
+  <br/><br/>
+<br/><br/>
+<br/><br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+{% endblock %}

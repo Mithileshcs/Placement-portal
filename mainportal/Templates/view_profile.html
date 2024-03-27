@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+{% block content %}
+
+
+<h1> Hello, {{ profile.user.first_name }}
+    {{ profile.user.last_name }}</h1>
+
+<br/><br/>
+<div class="card">
+    <div class="card-header"><strong>
+        {{ profile.user.first_name }}
+        {{ profile.user.last_name }}</strong>
+    </div>
+    <div class="card-body">
+        <p class="card-text"><strong>First Name : </strong>{{ profile.user.first_name }}</p>
+        <p class="card-text"><strong>Last Name : </strong>{{ profile.user.last_name }}</p>
+        <p class="card-text"><strong>Email : </strong>{{ profile.user.email }}</p>
+        <p class="card-text"><strong>Date of Birth:</strong>{{ profile.date_of_birth }}</p>
+        <p class="card-text"><strong>Father Name : </strong> {{ profile.father_name }}</p>
+        <p class="card-text"><strong>Year of Passing : </strong>{{ profile.year_of_passing }}</p>
+        <p class="card-text"><strong>Marks : </strong> {{ profile.marks }}</p>
+        <p class="card-text"><strong>No.of.Backlogs : </strong> {{ profile.backlogs }}</p>
+      <p class="card-text"><strong>Phone Number: </strong>{{ profile.phone_number }}</p>
+      <p class="card-text"><strong>Address : </strong> {{ profile.address }}</p>
+      <p class="card-text"><strong>City : </strong>{{ profile.city }}</p>
+      <p class="card-text"><strong>Zipcode : </strong>{{ profile.zipcode }}</p>
+      <p class="card-text"><strong>Skills : </strong> {{ profile.skills }}</p>
+
+ 
+    </div>
+  </div>
+
+  <br/><br/>
+
+ 
+  <a class="btn btn-secondary" href="{% url 'update_profile' %}">Update Profile</a>
+  <!-- Add other profile fields as needed -->
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+
+<!-- 
+<h1> Profile</h1>
+<br/>
+<div>
+    <p><strong>First Name:</strong> {{ profile.user.first_name }}</p>
+        <p><strong>Last Name:</strong> {{ profile.user.last_name }}</p>
+        <p><strong>Email:</strong> {{ profile.user.email }}</p>
+    <p><strong>Marks:</strong> {{ profile.marks }}</p>
+    <p><strong>Backlogs:</strong> {{ profile.backlogs }}</p>
+    <p><strong>Date of Birth:</strong> {{ profile.date_of_birth }}</p>
+    <p><strong>Father's Name:</strong> {{ profile.father_name }}</p>
+    <p><strong>Year of Passing:</strong> {{ profile.year_of_passing }}</p>
+    <p><strong>Address:</strong> {{ profile.address }}</p>
+    <p><strong>City:</strong> {{ profile.city }}</p>
+    <p><strong>Zipcode:</strong> {{ profile.zipcode }}</p>
+    <p><strong>Phone Number:</strong> {{ profile.phone_number }}</p>
+    <p><strong>Skills:</strong> {{ profile.skills }}</p>
+</div>
+<br/>
+<br/>
+
+{% endblock %}

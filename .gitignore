@@ -1,0 +1,13 @@
+# Virtual environment
+venv/
+env/
+
+# Database
+*.sqlite3
+
+# Compiled Python files
+__pycache__/
+*.pyc
+
+# Django migrations
+**/migrations/

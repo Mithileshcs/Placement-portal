@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h2>Apply for Job at {{ company.name }}</h2>
+<br/><br/>
+<!-- Display prepopulated profile information -->
+<h3>Your Profile Information:</h3>
+<br/><br/>
+
+<p class="card-text"><strong>First Name : </strong>{{ user_profile.user.first_name }}</p>
+<p class="card-text"><strong>Last Name : </strong>{{ user_profile.user.last_name }}</p>
+<p class="card-text"><strong>Email : </strong>{{ user_profile.user.email }}</p>
+<p class="card-text"><strong>Date of Birth:</strong>{{ user_profile.date_of_birth }}</p>
+<p class="card-text"><strong>Father Name : </strong> {{ user_profile.father_name }}</p>
+<p class="card-text"><strong>Year of Passing : </strong>{{ user_profile.year_of_passing }}</p>
+<p class="card-text"><strong>Marks : </strong> {{ user_profile.marks }}</p>
+<p class="card-text"><strong>No.of.Backlogs : </strong> {{ user_profile.backlogs }}</p>
+<p class="card-text"><strong>Phone Number: </strong>{{ user_profile.phone_number }}</p>
+<p class="card-text"><strong>Address : </strong> {{ user_profile.address }}</p>
+<p class="card-text"><strong>City : </strong>{{ user_profile.city }}</p>
+<p class="card-text"><strong>Zipcode : </strong>{{ user_profile.zipcode }}</p>
+<p class="card-text"><strong>Skills : </strong> {{ user_profile.skills }}</p>
+
+
+<!-- Add more fields as needed -->
+
+<!-- Job application form -->
+<form method="post">
+  {% csrf_token %}
+  <!-- Include fields from the JobApplicationForm -->
+  {{ form.as_p }}
+  <br/><br/>
+  <a href="{% url 'home' %}"class="btn btn-secondary">Back</a> 
+  <input class="btn btn-primary" type="submit" value="Submit Application">
+  
+</form>
+
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+{% endblock %}

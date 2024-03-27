@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h1>Update  Your Profile </h1>
+<br/><br/>
+<form method="POST">
+    {% csrf_token %}
+    {{ user_form.as_p }}
+    {{ profile_form.as_p }}
+
+    {% if form.password.errors %}
+    <div class="alert alert-danger" role="alert">
+        {% for error in form.password.errors %}
+            {{ error }}
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    <br/>
+<br/>
+    <button class="btn btn-secondary" type="submit">Update</button>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+</form>
+
+
+
+
+
+
+
+
+
+{% endblock %}
