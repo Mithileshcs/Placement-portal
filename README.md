@@ -43,9 +43,9 @@ To run the Placement app locally on your machine, follow these steps:
 
 **Install Dependencies:** Navigate to the project directory and install the required dependencies using:
 
-    ```
-    pip install -r requirements.txt
-    ```
+   ```
+   pip install -r requirements.txt
+   ```
 
 ## Database Setup
 1. **Create a MySQL Database:**
