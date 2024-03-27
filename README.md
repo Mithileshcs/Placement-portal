@@ -12,7 +12,7 @@ Welcome to the **Placement Portal**! This portal serves as a platform for studen
 8. [Future Improvements](#future-improvements)
 
 
-###  Introduction
+##  Introduction
 The **Placement Portal** is designed to streamline the process of matching students with placement opportunities. It offers a user-friendly interface for students to browse through available companies, view job descriptions, and apply for positions that suit their qualifications and interests.
 
 ## Features
@@ -24,13 +24,13 @@ The **Placement Portal** is designed to streamline the process of matching stude
 6. **Profile Management:** Students can log in to their accounts to view and update their profile information, including academic details, skills, and contact information.
 7. **Database Storage:** Student details and their applied companies are securely stored in the MySQL database.
 
-### Technologies Used
+## Technologies Used
 - **Frontend:** The user interface is designed using HTML and Bootstrap, providing a visually appealing and intuitive experience for users.
 - **Backend:** The Placement app is built using the Django web framework, providing a robust and scalable solution for managing customer data.
 - **Database:** Student data,company data is stored in an MySQL database, ensuring efficient data management and retrieval.
 - **Authentication:**  Django's built-in authentication system is used to handle user registration, login, and logout functionalities securely.
 
-###  Setting Up the Project
+##  Setting Up the Project
 
 To run the Placement app locally on your machine, follow these steps:
 **Clone the Repository:** Clone the Placement app repository to your local machine using the following command:
@@ -45,7 +45,7 @@ To run the Placement app locally on your machine, follow these steps:
     pip install -r requirements.txt
     ```
 
-### Database Setup
+## Database Setup
 1. **Create a MySQL Database:**
     - Install MySQL if not already installed.
     - Create a new database for the project.
@@ -53,7 +53,7 @@ To run the Placement app locally on your machine, follow these steps:
     - Open `placement_portal/settings.py`.
     - Update the `DATABASES` setting with your MySQL database configuration.
 
-### Running the Project
+## Running the Project
 1. **Apply Migrations:**
     ```
     python manage.py migrate
@@ -71,7 +71,7 @@ To run the Placement app locally on your machine, follow these steps:
     - Log in with the superuser credentials to access the admin panel.
 
 
-###  Future Improvements
+##  Future Improvements
 - Implementing a notification system for updates on new job postings or application statuses.
 - Adding a feature for admin approval before a student's application is considered.
 - Enhancing the user interface for better user experience.
