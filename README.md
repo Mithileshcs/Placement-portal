@@ -24,13 +24,13 @@ The **Placement Portal** is designed to streamline the process of matching stude
 To run the Placement app locally on your machine, follow these steps:
 **Clone the Repository:** Clone the Placement app repository to your local machine using the following command:
 
-```bash
-    git clone <https://github.com/Mithileshcs/Placement-portal.git>
-    ```
+   ```
+   git clone https://github.com/Mithileshcs/CRM.git
+   ```
  
 
 ** Install Dependencies:** Navigate to the project directory and install the required dependencies using:
-```bash
+    ```
     pip install -r requirements.txt
     ```
 
@@ -44,7 +44,7 @@ To run the Placement app locally on your machine, follow these steps:
 
 ### Running the Project
 1. **Apply Migrations:**
-    ```bash
+    ```
     python manage.py migrate
     ```
 2. **Create Superuser (Admin):**
