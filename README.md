@@ -72,50 +72,61 @@ To run the Placement app locally on your machine, follow these steps:
     - Log in with the superuser credentials to access the admin panel.
 
 
+
+
+  ## Output
+
+ -**User Registration**
+   Students can register on the portal by providing basic information such as name, email, and password.
+
+  ![Register user Page](placement_reg.png)
+
+
+ -**User Login**
+   If student already created an account means can directly login through this portal
+
+  ![Login Page](placement_login.png)
+
+
+ -**Additional Informations**
+   After registration, students are prompted to provide additional details such as academic marks, backlogs, skills, etc., to create comprehensive profiles.
+
+  ![Additional info](placement_add_profiledetails.png)
+
+
+ -**Company List View**
+   Admins can post details of companies offering placement opportunities including company name, job title, job description, requirements, etc.
+
+  ![Company list view](placement_view_com.png)
+ 
+
+ -**Detailed Company View**
+   Students can view detailed information and job descriptions of each company listed, including available positions and application deadlines.
+
+  ![Company detailed view](placement_view_comdetails.png)
+
+
+ -**Applying For Company**
+   Students can apply for positions they are interested in by clicking the apply button, which will submit their profile information to the company.
+
+  ![Applying for company](placement_apply_company.png)
+
+
+ -**View Profile**
+   Students can log in to their accounts to view and update their profile information, including academic details, skills, and contact information.
+
+  ![Profile View](placement_view_profile.png)
+
+
+ -**Update Profile**
+
+  ![Profile View](placement_update_profile.png)
+
+
+
+
 ##  Future Improvements
 - Implementing a notification system for updates on new job postings or application statuses.
 - Adding a feature for admin approval before a student's application is considered.
 - Enhancing the user interface for better user experience.
 - Integrating analytics to track student engagement and success rates.
-
-  ## Output
-
--**User Registration**
-
-![Register user Page](placement_reg.png)
-
-
--**User Login**
-
-![Login Page](placement_login.png)
-
-
--**Additional Informations**
-
-![Additional info](placement_add_profiledetails.png)
-
-
--**Company List View**
-
-![Company list view](placement_view_com.png)
- 
-
--**Detailed Company View**
-
-![Company detailed view](placement_view_comdetails.png)
-
-
--**Applying For Company**
-
-![Applying for company](placement_apply_company.png)
-
-
--**View Profile**
-
-![Profile View](placement_view_profile.png)
-
-
--**Update Profile**
-
-![Profile View](placement_update_profile.png)
- 
