@@ -9,7 +9,8 @@ Welcome to the **Placement Portal**! This portal serves as a platform for studen
 5. [Setting Up the Project](#setting-up-the-project)
 6. [Database Setup](#database-setup)
 7. [Running the Project](#running-the-project)
-8. [Future Improvements](#future-improvements)
+8. [Output](#output)
+9. [Future Improvements](#future-improvements)
 
 
 ##  Introduction
@@ -77,3 +78,44 @@ To run the Placement app locally on your machine, follow these steps:
 - Enhancing the user interface for better user experience.
 - Integrating analytics to track student engagement and success rates.
 
+  ## Output
+
+  -**User Registration**
+
+  ![Register user Page](placement_reg.png)
+
+
+  -**User Login**
+
+![Login Page](placement_login.png)
+
+
+ -**Additional Informations**
+
+ ![Additional info](placement_add_profiledetails.png)
+
+
+  -**Company List View**
+
+  ![Company list view](placement_view_com.png)
+ 
+
+ -**Detailed Company View**
+
+ ![Company detailed view](placement_view_comdetails.png)
+
+
+ -** Applying For Company **
+
+![Applying for company](placement_apply_company.png)
+
+
+-** View Profile **
+
+![Profile View](placement_view_profile.png)
+
+
+-** Update Profile **
+
+![Profile View](placement_update_profile.png)
+ 
