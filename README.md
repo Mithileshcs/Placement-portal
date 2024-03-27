@@ -80,42 +80,42 @@ To run the Placement app locally on your machine, follow these steps:
 
   ## Output
 
- -**User Registration**
+-**User Registration**
 
 ![Register user Page](placement_reg.png)
 
 
- -**User Login**
+-**User Login**
 
 ![Login Page](placement_login.png)
 
 
- -**Additional Informations**
+-**Additional Informations**
 
- ![Additional info](placement_add_profiledetails.png)
+![Additional info](placement_add_profiledetails.png)
 
 
-  -**Company List View**
+-**Company List View**
 
-  ![Company list view](placement_view_com.png)
+![Company list view](placement_view_com.png)
  
 
- -**Detailed Company View**
+-**Detailed Company View**
 
- ![Company detailed view](placement_view_comdetails.png)
+![Company detailed view](placement_view_comdetails.png)
 
 
- -** Applying For Company **
+-**Applying For Company**
 
 ![Applying for company](placement_apply_company.png)
 
 
--** View Profile **
+-**View Profile**
 
 ![Profile View](placement_view_profile.png)
 
 
--** Update Profile **
+-**Update Profile**
 
 ![Profile View](placement_update_profile.png)
  
