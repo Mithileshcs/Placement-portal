@@ -80,12 +80,12 @@ To run the Placement app locally on your machine, follow these steps:
 
   ## Output
 
-  -**User Registration**
+ -**User Registration**
 
-  ![Register user Page](placement_reg.png)
+![Register user Page](placement_reg.png)
 
 
-  -**User Login**
+ -**User Login**
 
 ![Login Page](placement_login.png)
 
