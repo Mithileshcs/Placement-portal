@@ -25,7 +25,7 @@ To run the Placement app locally on your machine, follow these steps:
 **Clone the Repository:** Clone the Placement app repository to your local machine using the following command:
 
    ```
-   git clone https://github.com/Mithileshcs/CRM.git
+   git clone https://github.com/Mithileshcs/Placement-portal.git
    ```
  
 
